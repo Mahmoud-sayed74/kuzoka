@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    cursor: url(img/cursor.png),default;
+}
+
+body {
+    /* background-color: rgb(0, 0, 0); */
+    background-color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    width: 100%;
+    transition: all 0.8s;
+}
+
+   /* header-start */
+
+
+header .container {
+    background-image: url("img/blue_bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    min-height: 550px;
+    overflow: hidden;
+        
+        
+     
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    align-items: end;
+    padding: 30px 170px 10px 170px;
+    z-index: 5;
+}
+nav a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-right: 19px;
+    margin-left: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #6e6a6a;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+nav .left {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+nav a:hover { 
+    
+    color: black;
+    border-bottom: 3px solid rgb(98, 23, 168);
+    border-bottom-style: groove;
+    cursor: url(img/second\ cursor.png),pointer !important;
+    font-size: 17px;
+    margin-bottom: 22px;
+    
+}
+
+
+nav .right {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+nav .right button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.9s;
+}
+
+nav .right button:hover {
+    background-color: rgba(240, 244, 247, 0.861);
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: url(img/second\ cursor.png),pointer !important;
+
+}
+
+
+header .big-div {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .big-div .lside {
+    width: 550px;
+    margin-top: 100px;
+    margin-right: 20px;
+    padding-top: 30px;
+    text-align: start;
+
+}
+
+header .big-div .lside p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 50;
+    padding-top: 20px;
+    
+}
+
+
+header .big-div .lside span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+header .big-div .lside span span {
+    padding: 0px 7px;
+    color: rgb(76, 76, 159);
+    transition: all 2.8s;
+}
+
+
+header .big-div .rside {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+header .big-div .rside .firest-i {
+    width: 700px;
+    position: absolute;
+    left: 800px;
+    margin-top: 200px;    
+    z-index: -3;
+}
+header .big-div .rside .second {
+    width: 300px;
+    position: absolute;
+    left: 950px;
+    margin-top: 50px;    
+    z-index: -2;
+    
+}
+
+header .big-div .rside .clouds {
+    width: 470px;
+    position: absolute;
+    left: 870px;
+    margin-top: 530px;    
+    z-index: -1;
+}
+
+header .big-div .rside .waves {
+    width: 1200px;
+    position: absolute;
+    left: 0px;
+    margin-top: 710px;    
+    z-index: 0;
+    
+}
+
+ /* header-end  */
+
+
+/* section-start */
+section .ota {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 115vh;
+}
+
+
+section .ota .ota1 .second2 {
+    width: 875px;
+    height: 550px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    
+}
+
+
+
+section .ota .ota2 {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    color: #8e8a8a;
+    text-align: center;
+   
+}
+
+section .ota .ota2 h1 {
+    margin-bottom: 5px;
+    font-size: 27px;
+    font-weight: 100;
+    color: #706d6d;
+}
+
+section .ota .ota2 p {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 4px;
+}
+
+section .ota .ota3 {
+    position: absolute;
+    top: 320px;
+    left: 600px;
+    color: #817e7e;
+    text-align: center;
+   
+}
+
+section .ota .ota3 h1 {
+    margin-bottom: 5px;
+    font-size: 27px;
+    font-weight: 100;
+    color: #706d6d;
+}
+
+section .ota .ota3 p {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 4px;
+}
+
+section .ota .ota4 {
+    position: absolute;
+    top: 630px;
+    left: 920px;
+    color: #817e7e;
+    text-align: center;
+   
+}
+
+section .ota .ota4 h1 {
+    margin-bottom: 5px;
+    font-size: 27px;
+    font-weight: 100;
+    color: #706d6d;
+}
+
+section .ota .ota4 p {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 4px;
+}
+
+section .ota .ota5 {
+    position: absolute;
+    top: 610px;
+    left: 200px;
+}
+
+section .ota .ota6 {
+    position: absolute;
+    color: white;
+    top: 670px;
+    left: 255px;
+    font-weight: 100;
+}
+
+section .ota .ota6 h1 {
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+section .bebo {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .bebo .bebo1 {
+    padding-right: 200px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section .bebo .bebo2 {
+    color: #817e7e;
+}
+
+section .bebo .bebo2 h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #656161;
+}
+
+section .bebo .bebo2 .bep1 {
+    font-size: 15px;
+    font-weight: 100;
+    padding: 4px;
+    padding-left: 57px;
+}
+  
+section .bebo .bebo2 .bep2 {
+    font-size: 15px;
+    font-weight: 100;
+    padding: 4px;
+    padding-left: 47px;
+}
+
+section .bebo .bebo2 .text {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+section .bebo .bebo2 .text h1{
+    text-align: center;
+    margin-right: 55px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+section .bebo .bebo3 {
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.bebo .larrow {    
+    font-size: 18px;
+    font-weight: 900;
+    color: #656161;
+    position: absolute;
+    left: 500px;
+    margin-top: 90px;
+}
+
+.bebo .rarrow {
+    font-size: 18px;
+    font-weight: 900;
+    color: #656161;
+    position: absolute;
+    right: 500px;
+    margin-top: 90px;
+}
+
+/* section end */
+
+/* footer-start */
+
+footer .foot-div {
+    margin-top: 90px;
+    background-image: url("img/finish.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+footer .foot-div .right-foot{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+}
+
+footer .foot-div .left-foot{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .foot-div .left-foot .apple {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 500px;
+    top: 70px;
+    border-radius: 15px ;
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+footer .foot-div .left-foot .google {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 330px;
+    top: 70px;
+    border-radius: 15px ;
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+footer .foot-div .sochial {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 50px;
+    right: 1270px;
+    top: 400px;
+}
+footer .foot-nav {
+    position: absolute;
+    top: 450px;
+    right: 930px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+footer .foot-nav a {
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-right: 19px;
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all 1.4s;
+}
+
+footer .foot-nav a:hover {
+    font-size: 12px;
+    border-bottom: 3px solid rgb(98, 23, 168);
+    border-bottom-style: groove;
+    border-bottom-right-radius: 50%;
+    cursor: url(img/second\ cursor.png),pointer !important;
+
+    
+}
+
+/* footer-end */
+
+
+
